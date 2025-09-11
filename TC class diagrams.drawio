@@ -1,0 +1,77 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="TBWEaHZDqTqTLSFvn9rW">
+    <mxGraphModel dx="1195" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-1" value="Card" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="160" height="270" as="geometry">
+            <mxRectangle x="220" y="90" width="70" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-2" value="- Name&lt;div&gt;- Condition&lt;/div&gt;&lt;div&gt;- Rarity?&lt;/div&gt;&lt;div&gt;- Year&lt;/div&gt;&lt;div&gt;- Asking Price&lt;/div&gt;&lt;div&gt;- Purchase Price&lt;/div&gt;&lt;div&gt;- Listing Status&lt;/div&gt;&lt;div&gt;- Grade&lt;/div&gt;&lt;div&gt;- Date added / purchase date&lt;/div&gt;&lt;div&gt;- Notes&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="Hg8XZzx9IyjpiZ8rxDxT-1">
+          <mxGeometry y="50" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-3" value="Pkmn Card" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;swimlaneLine=1;gradientColor=none;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="260" height="490" as="geometry">
+            <mxRectangle x="220" y="230" width="70" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-4" value="&lt;div&gt;private:&lt;/div&gt;- Name (string)&lt;div&gt;- Condition&lt;br&gt;&lt;div&gt;- Rarity (string)&lt;/div&gt;&lt;div&gt;- Year (int)&lt;/div&gt;&lt;div&gt;- Set (string)&lt;/div&gt;&lt;div&gt;- Number (string)&lt;/div&gt;&lt;div&gt;- Style (regular = 1, holo = 2, reverse holo =3)&lt;/div&gt;&lt;div&gt;- Asking Price (double)&lt;/div&gt;&lt;div&gt;- Purchase Price (double)&lt;/div&gt;&lt;div&gt;- Listing Status (1 = NFS, 2 = for sale)&lt;/div&gt;&lt;div&gt;- Grade (int)&lt;/div&gt;&lt;div&gt;- Date added / purchase date (int)&lt;/div&gt;&lt;div&gt;- Notes (string)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;public:&lt;/div&gt;&lt;div&gt;+ get/set name&lt;/div&gt;&lt;div&gt;+ get/set condition&lt;/div&gt;&lt;div&gt;+ get/set rarity&lt;/div&gt;&lt;div&gt;+ get/set year&lt;/div&gt;&lt;div&gt;+ get/set set&lt;/div&gt;&lt;div&gt;+ get/set number&lt;/div&gt;&lt;div&gt;+ get/set style&lt;/div&gt;&lt;div&gt;+ get/set asking price&lt;/div&gt;&lt;div&gt;+ get/set purchase price&lt;/div&gt;&lt;div&gt;+ get/set listing status&lt;/div&gt;&lt;div&gt;+ get/set grade&lt;/div&gt;&lt;div&gt;+ get/set date added&lt;/div&gt;&lt;div&gt;+ get/set notes&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="Hg8XZzx9IyjpiZ8rxDxT-3">
+          <mxGeometry y="50" width="260" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hg8XZzx9IyjpiZ8rxDxT-5" target="Hg8XZzx9IyjpiZ8rxDxT-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hg8XZzx9IyjpiZ8rxDxT-5" target="Hg8XZzx9IyjpiZ8rxDxT-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="475" />
+              <mxPoint x="880" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-5" value="Menu" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="670" y="417" width="160" height="116" as="geometry">
+            <mxRectangle x="670" y="384" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-6" value="1. Add card" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="Hg8XZzx9IyjpiZ8rxDxT-5">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-7" value="2. View cards" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="Hg8XZzx9IyjpiZ8rxDxT-5">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-8" value="3. Search card&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="Hg8XZzx9IyjpiZ8rxDxT-5">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-18" value="Add Card" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="170" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-19" value="- Open file stream&lt;div&gt;- Get card info from input&lt;/div&gt;&lt;div&gt;- Write info to file&lt;/div&gt;&lt;div&gt;- Close file&lt;/div&gt;&lt;div&gt;- Return to menu&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="Hg8XZzx9IyjpiZ8rxDxT-18">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-20" value="View Cards" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="370" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-21" value="- Open file stream&lt;div&gt;- List all cards and info&lt;/div&gt;&lt;div&gt;- Options? Select a card to edit? Delete a card?&lt;/div&gt;&lt;div&gt;- Organize by certain attribute&lt;/div&gt;&lt;div&gt;- Close file stream&lt;/div&gt;&lt;div&gt;- Return to menu&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="Hg8XZzx9IyjpiZ8rxDxT-20">
+          <mxGeometry y="50" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-22" value="Search Card" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="600" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-23" value="- Select attribute to search by&lt;div&gt;- Enter details at prompt&lt;/div&gt;&lt;div&gt;- Open file stream&lt;/div&gt;&lt;div&gt;- Search for cards matching prompt&lt;/div&gt;&lt;div&gt;- Return cards, display&lt;/div&gt;&lt;div&gt;- Use &quot;view cards&quot; code to display cards&lt;/div&gt;&lt;div&gt;- Include read/write options&lt;/div&gt;&lt;div&gt;- Return to menu&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="Hg8XZzx9IyjpiZ8rxDxT-22">
+          <mxGeometry y="50" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Hg8XZzx9IyjpiZ8rxDxT-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hg8XZzx9IyjpiZ8rxDxT-5" target="Hg8XZzx9IyjpiZ8rxDxT-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="476" />
+              <mxPoint x="850" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
