@@ -26,6 +26,8 @@ private:
 
 public:
 
+    //constructor?
+
     //getters
     std::string getName() {return name;}
     std::string getType() {return type;}
@@ -53,29 +55,9 @@ public:
     void setGrade (int g) {grade = g;}
     void setDate (std::string d) {date_added = d;}
     void setNotes (std::string n) {notes = n;}
-    
+
 
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
