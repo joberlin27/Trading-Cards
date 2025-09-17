@@ -26,9 +26,10 @@ private:
 
 public:
 
-    //constructor?
+    Card();
 
     //getters
+
     std::string getName() {return name;}
     std::string getType() {return type;}
     std::string getCondition() {return condition;}
@@ -43,6 +44,7 @@ public:
     std::string getNotes() {return notes;}
     
     //setters
+
     void setName (std::string n) {name = n;}
     void setType (std::string t) {type = t;}
     void setCondition(std::string c) {condition = c;}
@@ -56,6 +58,9 @@ public:
     void setDate (std::string d) {date_added = d;}
     void setNotes (std::string n) {notes = n;}
 
+    //other functions
+
+    void printCard();
 
 };
 

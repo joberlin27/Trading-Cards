@@ -8,9 +8,11 @@
 
 int main(){
 
-    
+    std::cout<<"Welcome to the Trading Card collection tool"<<std::endl;
 
+    Card newcard;
 
+    newcard.printCard();
 
 }
 
