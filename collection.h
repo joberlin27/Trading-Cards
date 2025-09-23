@@ -11,6 +11,12 @@
 
 class Collection{
 
+//linked list? map?
+//map holds cards, vector holds the map indexes
+//ordered and unordered map
+
+//vector stores different classes? 
+
 private:
     
 public:

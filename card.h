@@ -12,7 +12,7 @@ class Card {
 
 private:
     std::string name;
-    std::string type; //pokemon, baseball, etc.
+    std::string type; //pokemon, baseball, etc.  enum class
     std::string condition; //mint, near mint, poor, etc.
     std::string rarity;     //rare, common, etc.
     int year;

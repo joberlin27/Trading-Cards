@@ -16,3 +16,21 @@ int main(){
 
 }
 
+
+/*TODO
+
+- Type of file to save the cards to. json? sql light?
+
+- Workarounds for std::cin getline
+
+- Data type to store cards when reading from the file or input. Vector? (X)
+
+- How to read data from a file, modify it, then overwrite file. (pending file choice)
+
+- Other features to implement that are relevant to array v2 (namespaces, lambdas)
+
+- Useful libraries - Qt?
+
+THE BIG FIVE: copy, move constructor, move assignment operator, copy assignment 
+
+*/

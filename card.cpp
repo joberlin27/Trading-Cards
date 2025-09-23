@@ -9,6 +9,13 @@
 
 
 Card::Card(){
+
+    //pass info into constructor
+
+    //use struct for critical info
+
+    
+
     std::cout<<"Constructor test"<<std::endl;
     
     std::cout<<"Name of card?"<<std::endl;
