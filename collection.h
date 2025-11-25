@@ -8,6 +8,7 @@
 
 #include <string>
 #include "card.h"
+#include <vector>
 
 class Collection{
 
@@ -18,6 +19,8 @@ class Collection{
 //vector stores different classes? 
 
 private:
+
+    std::vector<Card> collection;
     
 public:
 

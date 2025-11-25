@@ -12,59 +12,45 @@ class Card {
 
 private:
     std::string name;
-    std::string type; //pokemon, baseball, etc.  enum class
     std::string condition; //mint, near mint, poor, etc.
-    std::string rarity;     //rare, common, etc.
     int year;
-    double purchase_price;
-    double asking_price;
-    std::string style;  //holo, reverse holo
+    double price;
     std::string status; //for sale, not for sale, shipped, sold
-    int grade;
-    std::string date_added;
-    std::string notes;
 
 public:
 
-    Card();
+    Card(std::string newname, std::string newcond, int newyear, double newprice, std::string newstatus);     //constructor
+
+    /*
+    ~Card();                                //destructor
+    Card(const Card& other);                //copy constructor
+    Card& operator= (const Card& other);    //copy assignment operator
+    Card(Card&& other) noexcept;            //move constructor
+    Card& operator=(Card&& other) noexcept; //move assignment operator
+
+*/
 
     //getters
 
     std::string getName() {return name;}
-    std::string getType() {return type;}
     std::string getCondition() {return condition;}
-    std::string getRarity() {return rarity;}
     int getYear() {return year;}
-    double getPurchasePrice() {return purchase_price;}
-    double getAskingPrice() {return asking_price;}
-    std::string getStyle() {return style;}
+    double getPurchasePrice() {return price;}
     std::string getStatus() {return status;}
-    int getGrade() {return grade;}
-    std::string getDate() {return date_added;}
-    std::string getNotes() {return notes;}
     
     //setters
 
     void setName (std::string n) {name = n;}
-    void setType (std::string t) {type = t;}
     void setCondition(std::string c) {condition = c;}
-    void setRarity(std::string r) {rarity = r;}
     void setYear(int y) {year = y;}
-    void setPurchasePrice(double pp) {purchase_price = pp;}
-    void setAskingPrice(double ap) {asking_price = ap;}
-    void setStyle (std::string s) {style = s;}
+    void setPurchasePrice(double newprice) {price = newprice;}
     void setStatus (std::string s) {status = s;}
-    void setGrade (int g) {grade = g;}
-    void setDate (std::string d) {date_added = d;}
-    void setNotes (std::string n) {notes = n;}
 
     //other functions
 
     void printCard();
 
 };
-
-
 
 
 

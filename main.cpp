@@ -8,11 +8,52 @@
 
 int main(){
 
-    std::cout<<"Welcome to the Trading Card collection tool"<<std::endl;
+    std::cout<<"Welcome to the trading card collection tool thing"<<std::endl;
 
-    Card newcard;
+    std::cout<<"Add new card? y/n"<<std::endl;
+    char answer;
+    std::cin>>answer;
 
-    newcard.printCard();
+    if (answer == 'y'){
+
+        //DECLARATION
+
+        std::string name;
+        std::string condition; //mint, near mint, poor, etc.
+        int year;
+        double price;
+        std::string status; //for sale, not for sale, shipped, sold
+
+        //INPUT
+
+        std::cout<<"Name of the card?"<<std::endl;
+        std::getline(std::cin, name);
+
+        std::cout<<"What is the card's condition?"<<std::endl;
+        std::getline(std::cin, condition);
+
+        std::cout<<"What year was the card published?"<<std::endl;
+        std::cin>>year;
+
+        std::cout<<"Price of the card?"<<std::endl;
+        std::cin>>price;
+
+        std::cout<<"What is the card's status?"<<std::endl;
+        std::getline(std::cin, status);
+
+        Card newCard(name, condition, year, price, status);
+
+
+
+    }
+
+
+
+    
+
+
+
+    //newcard.printCard();
 
 }
 
